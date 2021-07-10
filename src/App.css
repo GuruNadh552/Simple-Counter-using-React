@@ -28,6 +28,32 @@
   color: #61dafb;
 }
 
+.head-1{
+  color: #61dafb;
+}
+.button-grad{
+  background-color: #282c34;
+  color:#61dafb;
+  outline:none;
+  padding:15px;
+  border-radius: 3px;
+  border: 1px solid rgb(100, 255, 218);
+  cursor: pointer;
+  margin-left: 10px;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+.mainc{
+  color:#61dafb;
+  padding: 20px;
+  border-radius: 5px;
+  border: 2px solid rgb(100, 255, 218);
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+.button-grad:hover{
+  background-color: rgba(100, 255, 218,0.1);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
